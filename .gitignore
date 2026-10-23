@@ -1,0 +1,33 @@
+# ========================================================
+# PENSANDO LA HISTORIA · REPOSITORIO DE FUENTES HISTÓRICAS
+# Reglas de exclusión para proteger la privacidad docente
+# ========================================================
+
+# Documentos editables de Office / Word (bloat y metadatos)
+*.docx
+*.doc
+*.odt
+*.rtf
+
+# Material pedagógico privado del docente y planeación
+*Docente*
+*docente*
+00_*
+**/secundarias/
+secundarias/
+
+# Archivos Markdown redundantes (todo el contenido ya está en index.html)
+*.md
+!README.md
+
+# Scripts de automatización y mantenimiento local
+*.py
+*.sh
+
+# Archivos de respaldo y temporales
+*.bak
+*~
+*.swp
+*.tmp
+.DS_Store
+Thumbs.db
